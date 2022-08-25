@@ -1,0 +1,27 @@
+function ola(){
+    console.log("Hello World!!");
+}
+ola();
+
+function calcularMedia(n1,n2,n3) {
+    let notaDig1 = parseFloat(n1);
+    let notaDig2 = parseFloat(n2);
+    let notaDig3 = parseFloat(n3);
+    let media;
+  
+    media = ((notaDig1 + notaDig2 + notaDig3) / 3);
+   return console.log("A média é: "+ media);
+   
+  }
+  calcularMedia(4,10,8)
+ 
+  const calcMedia=(n1,n2,n3)=> {
+    media=((n1+n2+n3)/3);
+    return console.log(`A media é: ${media}`);
+  } 
+  calcMedia(4,10,8);
+
+  
+  const calculodaMedia = (n1,n2,n3) => ((n1+n2+n3)/3);
+console.log(`A média é: ${calculodaMedia(4,10,8)}`);
+  
